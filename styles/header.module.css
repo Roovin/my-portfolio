@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+    padding: 20px 0;
+}
+header .mainNav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .mainNav nav ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+header .mainNav nav ul li {
+    margin-left: 50px;
+}
+header .mainNav nav ul li:last-child {
+    margin-right: 0;
+}
