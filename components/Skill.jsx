@@ -10,9 +10,9 @@ export default function Skill() {
             </div>
             <div className="wrapper flex w-[calc(100%+30px)] ml-[-15px] mt-[30px] items-center">
                 <div className="colTwo w-[calc(50%-30px)] mr-[30px]">
-                    <div className="textWrap">
+                    <div className="textWrap text-black">
                         <h3 className='bold'>Professional Skills</h3>
-                        <p>I love to think outside the box and bring unique ideas to life through design, I have proficiency in HTML, CSS, and JavaScript, that ensure that my designs are not only beautiful but also functional. I prioritize the needs and preferences of users, conducting research to understand their behaviors and preferences.</p>
+                        <p>I love to think outside the box and bring unique ideas to life through design, I have proficiency in HTML5, CSS3, <b>Tailwind</b> and JavaScript, <b>Next js(React js)</b> that ensure that my designs are not only beautiful but also functional. I prioritize the needs and preferences of users, conducting research to understand their behaviors and preferences.</p>
                         <div className="skillWithPer mt-[20px]">
                             <ul>
                                 <li>

@@ -7,10 +7,10 @@ export default function Layout({children, dir}) {
   return (
     <>
       <Header />
-      <main className='h-full'>
+      <main className='h-full bg-[#f5f3f5] inline-block'>
         {children}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

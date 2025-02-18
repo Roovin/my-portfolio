@@ -15,9 +15,9 @@ export default function About() {
                 </div>
             </div>
             <div className="colTwo w-[calc(50%-30px)] mr-[30px]">
-                <div className="textWrap">
+                <div className="textWrap text-black">
                     <h3>I'm Roovin</h3>
-                    <p>As a passionate web designer, I thrive on creating visually appealing and user-friendly websites. My journey in web design began with a fascination for how design can enhance user experience</p>
+                    <p>As a passionate web frontend developer, I thrive on creating visually appealing and user-friendly websites. My journey in web design began with a fascination for how design can enhance user experience</p>
                 </div>
             </div>
         </div>
