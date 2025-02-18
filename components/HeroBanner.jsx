@@ -37,7 +37,6 @@ export default function HeroBanner() {
             <div className={`imageWrapper ${BannerStyle.imageWrapper}`}>
               <Image src={'/banner/self-pic.jpg'}  width={200} height={200} alt='Self Image' />
             </div>
-         
           </div>
         </div>
     </div>
