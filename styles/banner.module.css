@@ -1,0 +1,26 @@
+.heroBanner {
+    position: relative;
+}
+.heroBanner .wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+.heroBanner .wrapper .colOne {
+    position: relative;
+    width: calc(50% - 30px);
+    margin-right: 30px;
+}
+.heroBanner .wrapper .colOne:last-child {
+    margin-right: 0;
+}
+.heroBanner .wrapper .imageWrapper {
+    margin: 0 auto;
+    width: 300px;
+}
+.heroBanner .wrapper .imageWrapper img{
+    width: 100%;
+    border-radius: 50%;
+}

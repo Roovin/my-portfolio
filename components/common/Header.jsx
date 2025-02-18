@@ -1,31 +1,33 @@
 import React from 'react'
 import Image from 'next/image'
 import headerStyle from '../../styles/header.module.css'
+import Link from 'next/link'
 
 export default function Header() {
   return (
     <header className={`${headerStyle.header}`}>
         <div className="container">
             <div className={`main-nav ${headerStyle.mainNav}`}>
-                <div className="logo-wrap">
-                    <Image src={'/'} width={200} height={50} />
+                <div className={`${headerStyle.logoWrap} `}>
+                    <Link href={`/`} className='emptyLink'>.</Link>
+                    <Image src={'/logo/logo.png'} width={200} height={50} />
                 </div>
                 <nav className='nav'>
                     <ul>
                         <li>
-                            <a href="" >Home</a>
+                            <Link href="" >Home</Link>
                         </li>
                         <li>
-                            <a href="">About</a>
+                            <Link href="">About</Link>
                         </li>
                         <li>
-                            <a href="">Skills</a>
+                            <Link href="">Skills</Link>
                         </li>
                         <li>
-                            <a href="">Work</a>
+                            <Link href="">Work</Link>
                         </li>
                         <li>
-                            <a href="">Contact Us</a>
+                            <Link href="">Contact Us</Link>
                         </li>
                     </ul>
                 </nav>

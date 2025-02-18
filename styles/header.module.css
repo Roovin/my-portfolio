@@ -1,6 +1,13 @@
 .header {
     position: relative;
     padding: 20px 0;
+    background-color: white;
+    /* box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 1); */
+    box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
+}
+header .logoWrap {
+    position: relative;
+    max-width: 150px;
 }
 header .mainNav {
     position: relative;
@@ -20,4 +27,22 @@ header .mainNav nav ul li {
 }
 header .mainNav nav ul li:last-child {
     margin-right: 0;
+}
+header .mainNav nav ul li a {
+    position: relative;
+    color: black;
+    padding-bottom: 18px;
+}
+header .mainNav nav ul li a::before {
+    content: ''; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border: solid 2px transparent;
+    transition: all 0.3s ease-in-out;
+}
+header .mainNav nav ul li a:hover::before {
+    width: 100%;
+    border: solid 2px #4070f4;
 }

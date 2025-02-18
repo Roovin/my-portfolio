@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Layout from "@/components/Layout";
+import HeroBanner from "@/components/HeroBanner";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ import Layout from "@/components/Layout";
 export default function Home() {
   return (
     <Layout>
-      <h1>Test</h1>
+      <HeroBanner />
     </Layout>
   );
 }
