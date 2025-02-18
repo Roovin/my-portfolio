@@ -24,3 +24,31 @@
     width: 100%;
     border-radius: 50%;
 }
+.heroBanner .wrapper .defaultBtn {
+    position: relative;
+    background-color: #4070f4;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+    display: inline-block;
+} 
+.heroBanner .wrapper .socialIconWrap {
+    position: relative;
+    margin-top: 40px;
+}
+.heroBanner .wrapper .socialIconWrap ul {
+    display: flex;
+    align-items: center;
+}
+.heroBanner .wrapper .socialIconWrap ul li {
+    margin-right: 30px;
+}
+.heroBanner .wrapper .socialIconWrap ul li:last-child {
+    margin-right: 0;
+}
+.heroBanner .wrapper .socialIconWrap .iconWrap {
+    position: relative;
+}
