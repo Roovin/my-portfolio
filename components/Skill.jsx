@@ -16,7 +16,7 @@ export default function Skill() {
                         <div className="skillWithPer mt-[20px]">
                             <ul>
                                 <li>
-                                    <div className="item flex items-center justify-between bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
+                                    <div className="item flex items-center justify-between text-black bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
                                         <div className="imgWithText w-[calc(100%-10%)] flex items-center">
                                             <div className="iconWrap mr-[20px] w-[20px] h-auto">
                                                 <i class='bx bxl-html5 text-[30px]'></i>
@@ -29,7 +29,7 @@ export default function Skill() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="item flex items-center justify-between bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
+                                    <div className="item flex items-center justify-between text-black bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
                                         <div className="imgWithText w-[calc(100%-10%)] flex items-center">
                                             <div className="iconWrap mr-[20px] w-[20px] h-auto">
                                                 <i class='bx bxl-html5 text-[30px]'></i>
@@ -42,7 +42,7 @@ export default function Skill() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="item flex items-center justify-between bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
+                                    <div className="item flex items-center justify-between text-black bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
                                         <div className="imgWithText w-[calc(100%-10%)] flex items-center">
                                             <div className="iconWrap mr-[20px] w-[20px] h-auto">
                                                 <i class='bx bxl-html5 text-[30px]'></i>
@@ -55,7 +55,7 @@ export default function Skill() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="item flex items-center justify-between bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
+                                    <div className="item flex items-center justify-between text-black bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
                                         <div className="imgWithText w-[calc(100%-10%)] flex items-center">
                                             <div className="iconWrap mr-[20px] w-[20px] h-auto">
                                                 <i class='bx bxl-html5 text-[30px]'></i>
@@ -68,7 +68,7 @@ export default function Skill() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="item flex items-center justify-between bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
+                                    <div className="item flex items-center justify-between text-black bg-white p-[10px] mb-[20px] border-b-[2px] border-[#4070f4] shadow">
                                         <div className="imgWithText w-[calc(100%-10%)] flex items-center">
                                             <div className="iconWrap mr-[20px] w-[20px] h-auto">
                                                 <i class='bx bxl-html5 text-[30px]'></i>

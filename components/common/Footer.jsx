@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className='relative'>
             <div className="container">
                 <div className="wrapper text-center max-w-[300px] mr-auto ml-auto">
-                    <div className={`logoWrap`}>
+                    <div className={`logoWrap relative`}>
                         <Link href={`/`} className='emptyLink'>.</Link>
                         <Image src={'/logo/logo.png'} width={200} height={50} />
                     </div>
