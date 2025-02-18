@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import HeroBanner from "@/components/HeroBanner";
 import About from "@/components/About";
 import Skill from "@/components/Skill";
+import ContactUs from "@/components/ContactUs";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -21,6 +22,7 @@ export default function Home() {
       <HeroBanner />
       <About />
       <Skill />
+      <ContactUs />
     </Layout>
   );
 }

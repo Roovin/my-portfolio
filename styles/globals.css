@@ -68,14 +68,16 @@ h6,
 p {
   font-size: 20px;
 }
-
+main {
+  position: relative;
+  width: 100%;
+}
 section {
   position: relative;
   padding: 60px 0;
   float: left;
   width: 100%;
 }
-
 .container {
   max-width: 1320px;
   width: 100%;
@@ -94,3 +96,15 @@ section {
 a {
   text-decoration: none;
 }
+
+/* Contact us Button */
+.defaultBtn {
+  position: relative;
+  background-color: #4070f4;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+} 

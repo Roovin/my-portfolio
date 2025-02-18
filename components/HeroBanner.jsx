@@ -17,21 +17,21 @@ export default function HeroBanner() {
             <div className="linkWrap">
               <Link href="" className={`${BannerStyle.defaultBtn} font-bold`}>Contact Us</Link>
             </div>
-            {/* <div className={`socialIconWrap ${BannerStyle.socialIconWrap}`}>
+            <div className={`socialIconWrap ${BannerStyle.socialIconWrap}`}>
               <ul>
                 <li>
                   <div className={`${BannerStyle.iconWrap} iconWrap`}>
                     <Link href={`/`} className='emptyLink'>.</Link>
-                    <i className='bx bxl-linkedin' ></i>
+                    <i className='bx bxl-linkedin text-[30px]' ></i>  
                   </div>
                 </li>
                 <li>
                   <div className="iconWrap">
-                  <i class='bx bxl-github' ></i>
+                  <i class='bx bxl-github text-[30px]' ></i>
                   </div>
                 </li>
               </ul>
-            </div> */}
+            </div>
           </div>
           <div className={`colOne ${BannerStyle.colOne}`}>
             <div className={`imageWrapper ${BannerStyle.imageWrapper}`}>
